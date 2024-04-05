@@ -6,3 +6,7 @@ edition = "2021"
 [dependencies]
 crossterm = "0.27.0"
 ratatui = "0.26.1"
+rocket = { path = "../../core/lib", features = ["json"] } // added for rocket
+
+[dev-dependencies]
+rand = "0.8"
